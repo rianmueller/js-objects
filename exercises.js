@@ -42,10 +42,15 @@ console.log(books);
 //     age: 10,
 //     vegeterian: false,
 //     color: [brown, white],
-//     speak:  
+//     speak: console.log('bark!'),
 // }
 
 //An empty object
+// function woof(){
+//     return 'bark!'
+// }
+// woof();
+// console.log(woof())
 
 /*
 3. Declare a variable named `kicks` and assign it to an EMPTY object.
@@ -69,8 +74,6 @@ kicks.buy = 'Now I is a cool kid!';
 
 console.log(kicks);
 
-
-
 /* 
 
 4. Declare a variable named `plainBox` and set its value to be an EMPTY object.
@@ -82,6 +85,12 @@ console.log(kicks);
   console.log the object
 */
 
+var plainBox = {};
+plainBox.color = 'blue';
+plainBox.size = 20;
+plainBox.contents = [];
+
+console.log(plainBox);
 
 /*
 5. Declare a variable named `stockCar` and create the following properties (key-value pairs) to the object:

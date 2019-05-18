@@ -132,8 +132,10 @@ console.log(stockCar);
      person.age = age;
      return person
  }
- console.log(buildPerson('Me', 'Rian', 38));
- console.log(plainPerson);
+ var completePerson = buildPerson(plainPerson, 'Rian', 38);
+ console.log(completePerson);
+ console.log(completePerson.name);
+ console.log(completePerson.age);
 
 /*
 7. Display values of objects that are inside an array
@@ -236,6 +238,16 @@ printOrders(arrayOfObjects);
         to inspect your results.
 */
 
+// var sumObj = {
+//     a: 1,
+//     b: 2,
+//     result: 
+// }
+
+// function objectAddition(first){
+//     first.a + first.b;
+
+// }
 
 /*
 9. Print sum function and add as new key-value
